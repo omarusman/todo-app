@@ -1,11 +1,11 @@
-import {shallowMount} from "@vue/test-utils"
+import {mount} from "@vue/test-utils"
 import sinon from "sinon";
-import InputTodo from "./../src/components/InputTodo"
+import App from "./../src/components/App"
 
-test('InputTodo', () => {
+test('App', () => {
 
     // Render
-    const wrapper = shallowMount(InputTodo);
+    const wrapper = mount(App);
 
     // Methods
     const getTodos = sinon.stub();
