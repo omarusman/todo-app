@@ -10,7 +10,6 @@ new Vue({
 
     data: {
         baseUrl: "https://www.jsonstore.io/76d13b4df56acdcc0852956896af3a6f8787938959a1c1bd5749e74050dbfbbb",
-        todoItem: "",
         todoItems: []
     },
 
@@ -60,7 +59,7 @@ new Vue({
             alert(msg);
         }
     },
-    
+
     mounted() {
         this.init();
     }
