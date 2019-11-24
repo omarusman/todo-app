@@ -10,6 +10,6 @@ To run this simple app, see below:
 2. Fire up your favorite web server. eg: `php -S localhost:8000`
 
 ## Testing
-To this app, see below:
+To test this app, see below:
 
 1. Do `npm test` or `yarn test`
